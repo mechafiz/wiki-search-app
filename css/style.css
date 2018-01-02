@@ -55,6 +55,10 @@ button{
 	border-style: none;
 }
 
+button:hover{
+	background: #10A5E8;
+}
+
 input::placeholder {
 	font-family: 'Lato', sans-serif;
 	font-size: 14px;
@@ -76,6 +80,7 @@ h3{
 	font-size: 20px;
 	font-weight: 400;
 	margin-top: 0px;
+	margin-bottom: 10px;
 }
 
 p{
@@ -90,4 +95,9 @@ p{
 .link{
 	color: #0FACF3;
 	font-weight: 700;
+	text-decoration: none;
+}
+
+.link:hover{
+	color: #10A5E8;
 }
