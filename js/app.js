@@ -1,7 +1,7 @@
 $(document).ready(function() {
 	$('form').on('submit', function(evento) {
 		evento.preventDefault()
-
+		$('art').empty()
 		var $input = $('input')
 		var valorInput = $input.val()
 
