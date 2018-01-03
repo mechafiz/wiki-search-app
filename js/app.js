@@ -11,6 +11,9 @@ $(document).ready(function() {
 
 		$.ajax({
 			url: ApiUrl,
+			xhrFields: {
+		        withCredentials: true
+		    },
 			success: function(data) {
 				var articulos = data.query.pages 
 
